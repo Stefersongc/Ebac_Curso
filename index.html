@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Banking</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <div class="container">
+        <h1> EBAC Banking </h1>
+        <h2> Depósitos </h2>
+        <form id="form-deposito">
+            <input type="text" Id="nome-beneficiario" required placeholder="Nome Completo do Beneficiário" />
+            <article class="requestname">
+                *Campo Nome Completo é obrigatório*
+            </article>
+            <input type="number" Id="numero-conta" required placeholder="Número da conta" />
+            <input type="number" Id="valor-deposito" required placeholder="Valor" />
+            <textarea id = "text-area" placeholder="Descrição (Opcional)"></textarea>
+            <button> Depositar </button>
+            <p class="mensagem-sucesso">
+                O montante de: <b> 1000 </b> foi enviado para o cliente: <b> Nome do Cliente </b>  - Conta: <b> 1 </b>
+            </p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
