@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Porto Travel</title>
+</head>
+<body>
+    <!--Header com Nav Bootstrap-->
+    <header class="cabecalho">
+        <div class="container">
+                <h1 class="d-flex justify-content-center">
+                    A cidade do Porto
+                </h1>
+    <!--Nav Bootstrap-->                   
+            <div class="navbar navbar-expand-md justify-content-center">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#SobreaCidade"> Sobre a Cidade </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pontosTuristicos"> Pontos Turísticos </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Hospedagens"> Melhores Hospedagens </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatoReserva"> Faça sua cotação </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Estrutura do Carousel(Imagens da Cidade)-->
+    <div class="container text-center mt-4">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="https://i.pinimg.com/1200x/08/1c/95/081c95d00489e5cbf90897c558e1e61c.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/f0/10/9d/f0109d5c4d79ccb8b4a26a51f5d9ca45.jpg">
+                </div>
+                <div data-bs-interval=3000" class="carousel-item"> 
+                    <img src="https://i.pinimg.com/1200x/47/3e/ad/473ead10420bad26de79f559c0db6f67.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://i.pinimg.com/1200x/66/30/47/66304709ef509f85c6bb3cb0bd491070.jpg">
+                </div>     
+            </div>
+            <div class="carousel-indicators">
+                <div>
+                    <button class="active" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" type="button"></button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide-to="1" type="button"></button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide-to="2" type="button"></button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide-to="3" type="button"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Estrutura do Sobre a Cidade-->
+    <section class="container" id="SobreaCidade">
+        <div>
+            <h1>
+                Sobre a Cidade
+            </h1>
+            <article class="card text-md-ligth">
+                <p>
+                    O Porto, segunda maior cidade de Portugal, é um destino histórico e vibrante à beira do rio Douro. Conhecida pela sua arquitetura única, que vai do barroco da Torre dos Clérigos aos azulejos da Estação de São Bento, a cidade combina tradição e modernidade em cada rua e praça. A Ribeira, com seus edifícios coloridos e ruelas estreitas, é o coração histórico e um cartão-postal reconhecido mundialmente. O Porto é também famoso pelo seu vinho do Porto, exportado para todo o mundo, e pelos cafés e restaurantes tradicionais, que convivem com espaços contemporâneos de cultura e lazer. As pontes, especialmente a Ponte Dom Luís I, unem as margens do Douro e oferecem vistas espetaculares da cidade. Com uma vida cultural intensa, festivais, museus e mercados, o Porto é uma cidade que encanta visitantes e moradores, oferecendo história, gastronomia, arte e uma atmosfera única entre tradição e modernidade.
+                </p>
+            </article>
+        </div>
+    </section> 
+    <!--Estrutura dos Cards(Pontos Turísticos)-->
+    <section class="container" id="pontosTuristicos">
+        <h1>
+            Pontos Turísticos
+        </h1>
+        <div class="row">
+            <div class="col-sm-4 mb-4">
+                <article class="card text-bg-ligth h-100">
+                    <div class="card-header">
+                        <h5>Ponte Dom Luís I</h5>
+                    </div> 
+                    <img class="img-fluid rounded-top" src="https://i.pinimg.com/736x/3f/a0/dc/3fa0dce22b1e831d20ebd1e7a567c496.jpg">
+                    <div class="card-body">
+                        <p> Poética e emocional: Majestosa sobre o Douro, une corações e histórias, a Ponte Dom Luís I é a alma do Porto em aço.<p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <article class="card text-bg-ligth h-100">
+                    <div class="card-header">
+                        <h5>Avenida dos Aliados</h5>
+                    </div> 
+                    <img class="img-fluid rounded-top" src="https://i.pinimg.com/1200x/08/8d/ff/088dfff601272f30c0fa2df4478a51f7.jpg">
+                    <div class="card-body">
+                        <p> Turística e elegante: Centro nobre da cidade e palco de celebrações, a Avenida dos Aliados é o verdadeiro salão do Porto.<p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <article class="card text-bg-ligth h-100">
+                    <div class="card-header">
+                        <h5>Rua de Santa Catarina</h5>
+                    </div> 
+                    <img class="img-fluid rounded-top" src="https://i.pinimg.com/736x/31/be/4d/31be4d9ffd6f55a30281eb832cbd9baa.jpg">
+                    <div class="card-body">
+                        <p> Visual e charmosa: Passos apressados, vitrines e história em cada esquina a Rua de Santa Catarina é o Porto em movimento.<p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <article class="card text-bg-ligth h-100">
+                    <div class="card-header">
+                        <h5>MacDonals Imperial</h5>
+                    </div> 
+                    <img class="img-fluid rounded-top" src="https://i.pinimg.com/1200x/57/9f/b9/579fb91d51054840cda565de1011cf66.jpg">
+                    <div class="card-body">
+                        <p> Elegante e imponente: Sob o olhar da imponente águia esculpida, ergue-se o McDonald’s Imperial o mais belo do mundo.<p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <article class="card text-bg-ligth h-100">
+                    <div class="card-header">
+                        <h5>Torre dos Clérigos</h5>
+                    </div> 
+                    <img class="img-fluid rounded-top" src="https://i.pinimg.com/736x/14/57/ee/1457ee897e2d26c1a14076e7bf457e07.jpg">
+                    <div class="card-body">
+                        <p> Turística e descritiva: Ícone do Porto e obra-prima do barroco, a Torre dos Clérigos convida a ver a cidade do alto.<p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <article class="card text-bg-ligth h-100">
+                    <div class="card-header">
+                        <h5>Estação de São Bento</h5>
+                    </div> 
+                    <img class="img-fluid rounded-top" src="https://i.pinimg.com/1200x/40/d4/ab/40d4abafdcd8773507ab8c719637e163.jpg">
+                    <div class="card-body">
+                        <p> Poética e histórica: Entre azulejos que contam histórias, a Estação de São Bento é memória viva do Porto.<p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--Estrutura das Hospedagens-->
+    <section class="container my-5" id="Hospedagens">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Melhores Hospedagens no Porto</h1>
+            <p class="text-muted">Conheça os hotéis e acomodações mais encantadores da cidade, com conforto e vistas deslumbrantes.</p>
+            <div class="stars mt-2 mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="https://www.the-yeatman-hotel.com/fotos/imagens_ambiente/mcg_20130524_theyateman_0015_hires_by_mcgunnmedia_33137716858c024872637d_2845197745c90cbd91fb5d.jpg.webp" class="card-img-top" alt="Hotel The Yeatman">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">The Yeatman</h5>
+                        <p class="card-text flex-grow-1">Um hotel de luxo com vista panorâmica sobre o Douro, famoso pela sua adega de vinhos e spa premiado.</p>
+                        <a href="#contatoReserva" class="btn btn-primary w-100 mt-auto">Reservar Agora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="https://stories.pestana.com/cms/wp-content/uploads/2023/11/Exterior_1510_20190911-scaled.jpg" class="card-img-top" alt="Pestana Vintage Porto">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pestana Vintage Porto</h5>
+                        <p class="card-text flex-grow-1">Localizado na Ribeira, este hotel oferece charme histórico com conforto moderno e vista para o rio.</p>
+                        <a href="#contatoReserva" class="btn btn-primary w-100 mt-auto">Reservar Agora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-lg border-0">
+                    <img src="https://torel-avantgarde.hotels-porto-pt.com/data/Photos/OriginalPhoto/12451/1245180/1245180037.JPEG" class="card-img-top" alt="Torel Avantgarde">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Torel Avantgarde</h5>
+                        <p class="card-text flex-grow-1">Um hotel boutique artístico com design criativo, piscina exterior e restaurante com vista para o Douro.</p>
+                        <a href="#contatoReserva" class="btn btn-primary w-100 mt-auto">Reservar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Formulários-->
+    <section class="container my-5" id="contatoReserva">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold">Entre em Contato para Reservar</h1>
+        <p class="text-muted">Preencha o formulário abaixo e entraremos em contato para confirmar sua hospedagem.</p>
+    </div>
+    
+    <form class="row g-3 bg-light p-4 rounded-4 shadow-lg">
+        <div class="col-md-6">
+            <label for="nome" class="form-label">Nome completo</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="seuemail@email.com" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" placeholder="+351 912 345 678" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="hospedagem" class="form-label">Escolha a hospedagem</label>
+            <select class="form-select" id="hospedagem" required>
+                <option selected disabled>Selecione uma opção</option>
+                <option>Hotel The Yeatman</option>
+                <option>InterContinental Porto</option>
+                <option>Pestana Vintage Porto</option>
+                <option>PortoBay Flores</option>
+            </select>
+        </div>
+
+        <div class="col-md-6">
+            <label for="checkin" class="form-label">Data de Check-in</label>
+            <input type="date" class="form-control" id="checkin" required>
+        </div>
+
+        <div class="col-md-6">
+            <label for="checkout" class="form-label">Data de Check-out</label>
+            <input type="date" class="form-control" id="checkout" required>
+        </div>
+
+        <div class="col-12">
+            <label for="mensagem" class="form-label">Mensagem ou pedido especial</label>
+            <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva aqui..." required></textarea>
+        </div>
+
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-warning px-5 py-2 fw-bold rounded-pill shadow-sm">
+                Enviar Pedido de Reserva
+            </button>
+        </div>
+    </form>
+</section>
+<button type="button" class="btn btn-primary btn-lg rounded-circle shadow" id="btnTopo">
+    <i class="bi bi-arrow-up"></i>
+</button>
+<script src="./lib/bootstrap.bundle.min.js"></script>
+<script>
+    const btnTopo = document.getElementById("btnTopo");
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            btnTopo.style.display = "block";
+        } else {
+            btnTopo.style.display = "none";
+        }
+    };
+
+    btnTopo.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+/* Nav's Style */
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    text-decoration:#fff;
+}
+
+/* Header Style */
+
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  font-style: normal;
+  padding: 18px;
+}
+
+/* Carousel Style */
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.6s ease;
+}
+   
+#carousel-exemplo {
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.carousel-item.active img {
+    transform: scale(1.05);
+}
+
+/* Cards style */
+
+#pontosTuristicos {
+    margin-top: 150px;
+}
+
+#pontosTuristicos h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-style: normal;
+    padding: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+#pontosTuristicos .card {
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#pontosTuristicos .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+#pontosTuristicos .card img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+#pontosTuristicos .card-body {
+    padding: 15px;
+}
+
+#pontosTuristicos .card-header {
+    background: rgba(251, 251, 251, 0.6);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Sobre a Cidade Style */
+
+#SobreaCidade {
+    background: linear-gradient(135deg, #ffffff, #ffffff); /* fundo moderno escuro */
+    color: #000000;
+    padding: 80px 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    margin: 50px auto;
+    max-width: 1200px;
+    background-image: url('https://i.pinimg.com/1200x/e6/ee/ae/e6eeae24fa7b81a2a3840a1a98cd15a2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+#SobreaCidade h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    font-style: normal;
+    padding: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#SobreaCidade article {
+    background: rgba(241, 238, 238, 0.05);
+    backdrop-filter: blur(6px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    max-width: 1000px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#SobreaCidade article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(255, 255, 255, 0.35);
+}
+
+#SobreaCidade p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #ffffff;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-shadow: 2px 2px 5px rgba(87, 87, 87, 0.5);
+}
+
+#SobreaCidade p::first-letter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    #SobreaCidade {
+        padding: 50px 15px;
+    }
+    #SobreaCidade p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+
+/* Section Hospedagens */
+
+#Hospedagens h1 {
+    font-size: 2.5rem;
+}
+
+#Hospedagens .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#Hospedagens .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+#Hospedagens .card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Formulário */
+
+#contatoReserva {
+    max-width: 900px;
+}
+
+#contatoReserva h1 {
+    font-family: "Pacifico", cursive;
+}
+
+#contatoReserva form {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    border: 1px solid #e3e3e3;
+}
+
+#contatoReserva input, 
+#contatoReserva select, 
+#contatoReserva textarea {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#contatoReserva input:focus, 
+#contatoReserva select:focus, 
+#contatoReserva textarea:focus {
+    box-shadow: 0 0 8px rgba(255, 193, 7, 0.4);
+    border-color: #ffc107;
+}
+
+/* Botão ir ao topo */
+
+#btnTopo {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+#btnTopo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.6);
+}
+
+
+section {
+    scroll-margin-top: 70px;
+}
