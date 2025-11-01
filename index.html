@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<div Class="Fundo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="container"> 
+        <h1> Agenda de Contatos </h1>
+        <h3> Insira os dados do contato </h3>
+        <div class="form">
+            <form id="form-contato"> 
+                <input type="text" id="Nome" placeholder="Nome" alt="Nome do Contato" required/>
+                <input type="number" id="number" placeholder="Número" required/>
+                <button type="submit"> Adicionar </button>
+            </form>
+        <div class="table">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome
+                        </th>
+                        <th>
+                            Telefone
+                        </th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            Contatos Cadastrados
+                        </td>
+                        <td id="contatos">
+                            (Número)
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        </div>
+    </div>  
+</body>
+<footer>
+    <div class="footer-container">
+        <p>
+                © Todos os direitos reservados - 2024
+            <h5> 
+                Desenvolvido por Steferson Campelo
+            </h5>
+        </p>
+    </div>
+</footer>
+<script src="./main.js"></script>
+</html>
