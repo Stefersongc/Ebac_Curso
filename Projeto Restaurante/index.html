@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Tempo & Sabor Restaurante</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Tempo & Sabor</h1>
+            <button class="navbar-toggler m-2 rounded-pill" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-o-restaurante">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#cardapio">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="w-100" src="./images/slides/slide1.png" alt="Salão do restaurante">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="w-100" src="./images/slides/slide2.png" alt="Taças de vinho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="w-100" src="./images/slides/slide3.png" alt="Mesa posta de comida">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>   
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 p-3">
+                        <img src="./images/restaurante.jpg" class="d-block w-100 rounded img-fluid" alt="Foto do espaço interno restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title text-center">Sobre <span class="text-colored">o restaurante</span></h2>
+                        <p>
+                            No coração do Porto, o Tempo & Sabor nasceu da paixão pela boa mesa e pelo prazer de saborear cada momento. Mais do que um restaurante, somos um espaço onde o tempo desacelera e o sabor ganha protagonismo.
+                            Aqui, acreditamos que comer bem é uma experiência completa que começa na escolha dos ingredientes, passa pela criatividade da cozinha e termina no sorriso de quem saboreia. Por isso, trabalhamos com produtos frescos e sazonais, privilegiando fornecedores locais e receitas que respeitam a tradição portuguesa, mas com um toque contemporâneo que surpreende a cada prato.
+                            O ambiente é acolhedor e elegante, perfeito para um almoço descontraído, um jantar romântico ou um encontro entre amigos. Cada detalhe, da decoração à música ambiente, foi pensado para que se sinta à vontade e viva uma experiência memorável.
+                            No Tempo & Sabor, queremos que cada refeição seja um convite a desfrutar sem pressa, a celebrar o agora e a saborear a vida porque o tempo passa, mas o sabor das boas memórias permanece.
+                        </p>
+                        <h3 class="section-title text-center">Sobre <span class="text-colored">o espaço</span></h3>
+                        <p>
+                            O Tempo & Sabor oferece um ambiente acolhedor e contemporâneo, pensado para transformar cada refeição num momento especial. Com decoração elegante, iluminação suave e um toque de charme portuense, o espaço combina conforto e sofisticação ideal para quem aprecia boa comida e bons momentos.
+                        </p>
+                        <ul>
+                            <li>Espaço amplo e confortável</li>
+                            <li>Equipe qualificada e certificada</li>
+                            <li>Culinária Exemplar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5" >
+        <div class="container">
+            <div class="row">
+                <h1 class="section-title text-center pb-5">Para todas <span class="text-colored">as ocasiões</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/eventos/aniversario.jpg" alt="Aniversário" class="d-block w-100 rounded">
+                    <h3 class="section-title text-center p-1 mt-3 text-colored fs-3">Aniversários</h3>
+                    <i class="bi bi-cake2 fs-3 d-flex justify-content-center pb-3 text-colored"></i>
+                    <p>
+                        No do Tempo & Sabor, transformamos seu aniversário em uma celebração inesquecível. 
+                        Oferecemos ambientes especiais decorados, menu personalizado e toda a atenção que você 
+                        merece no seu dia especial. Desde jantares íntimos até festas com amigos e familiares, 
+                        criamos a atmosfera perfeita para tornar sua data ainda mais especial com nossa gastronomia 
+                        exclusiva e serviço dedicado.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/eventos/casamento.jpg" alt="Casamentos" class="d-block w-100 rounded">
+                    <h3 class="section-title text-center p-1 mt-3 text-colored fs-3">Casamentos</h3>
+                    <i class="bi bi-arrow-through-heart-fill fs-3 d-flex justify-content-center pb-3 text-colored"></i>
+                    <p>
+                        Criamos a celebração de casamento dos seus sonhos. Desenvolvemos cada detalhe com cuidado e carinho, desde o menu exclusivo 
+                        até a ambientação perfeita para seu grande dia. Nossa equipe especializada garante uma experiência impecável, permitindo que você e seus convidados 
+                        desfrutem de momentos inesquecíveis cercados por gastronomia refinada e um serviço que honra a importância desta união.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/eventos/confraternizacoes.jpg" alt="Confraternizações" class="d-block w-100 rounded">
+                    <h3 class="section-title text-center p-1 mt-3 text-colored fs-3">Confraternizações</h3>
+                    <i class="bi bi-people-fill fs-3 d-flex justify-content-center pb-3 text-colored"></i>
+                    <p>
+                        Seja para celebrar conquistas, fortalecer laços ou simplesmente reunir pessoas especiais, o Tempo & Sabor oferece o cenário perfeito 
+                        para sua confraternização. Com espaços versáteis, menu personalizável e um atendimento que antecipa todas as necessidades, garantimos que 
+                        seu evento seja tão produtivo quanto agradável. Do coffee break ao jantar completo, criamos experiências que unem pessoas através da boa gastronomia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center pb-5">Nosso <span class="text-colored">Cardápio</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas_sem_alcool" class="nav-link fw-bold active text-colored">Bebidas não Alcoólicas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas_alcoolicas" class="nav-link fw-bold text-colored">Bebidas Alcoólicas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="nav-link fw-bold text-colored">Entradas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pratosprincipais" class="nav-link fw-bold text-colored">Pratos principais</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="nav-link fw-bold text-colored">Sobremesas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bebidas_sem_alcool">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/coca-cola.jpg" alt="Coca Cola">
+                                    <h5 class="fw-bold">Coca Cola</h5>
+                                    <p>
+                                        Gosto fantástico e irresistível, quem não gosta de uma coca-cola no ponto?
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/suco.jpg" alt="Suco de Laranja">
+                                    <h5 class="fw-bold">Sucos</h5>
+                                    <p>
+                                        Um bom suco de laranja da fruta não tem jeito, estou certo? <strong>Consulte outras opções de sabores</strong>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/limonada.webp" alt="Limonada">
+                                    <h5 class="fw-bold">Limonada</h5>
+                                    <p>
+                                        Uma limonada feita com os limãos selecionados para você
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/Água Saborizada.png" alt="Água Saborizada">
+                                    <h5 class="fw-bold">Água Saborizada</h5>
+                                    <p>
+                                        Já tomou água com sabor? <Strong>Consulte as opções de sabores</Strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas_alcoolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/cerveja.jpg" alt="Cerveja">
+                                    <h5 class="fw-bold">Cerveja</h5>
+                                    <p>
+                                        Gosta de cerveja, está no lugar certo, peça já a sua!
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/vinho.jpg" alt="Vinho">
+                                    <h5 class="fw-bold">Vinho</h5>
+                                    <p>
+                                        Um bom vinho a moda Europeu é irresistível aos olhos humanos, venha já saborear!
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/Caipirinha.jpg" alt="Caipirinha">
+                                    <h5 class="fw-bold">Caipirinha</h5>
+                                    <p>
+                                        Se é do time da Caipirinha, esta é a melhor da cidade
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/bebidas/Cachaças.webp" alt="Cachaças">
+                                    <h5 class="fw-bold">Cachaças</h5>
+                                    <p>
+                                        Temos uma variedade de Cachaças prontas para você <Strong>Consulte as opções de sabores</Strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="entradas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/entradas/entrada.jpg" alt="Entrada da Casa">
+                                    <h5 class="fw-bold">Entrada da Casa</h5>
+                                    <p>
+                                        Uma delícia para abrir o apetite
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/entradas/Entrada2.jpg" alt="Bolinhos">
+                                    <h5 class="fw-bold">Bolinho a explosiva</h5>
+                                    <p>
+                                        Uma explosão de sabores para começar bem o seu dia
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/entradas/Entrada3.jpg" alt="Prato de frios">
+                                    <h5 class="fw-bold">Prato de Frios</h5>
+                                    <p>
+                                        Uma gama de queijos e frios para saborear com vontade
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/entradas/Entrada4.jpg" alt="Íscas de Camarão">
+                                    <h5 class="fw-bold">Íscas Marítimas de Camarão</h5>
+                                    <p>
+                                        As íscas de camarão selecionadas para você
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pratosprincipais">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/pratos/pizza.jpg" alt="Pizza">
+                                    <h5 class="fw-bold">Pizza</h5>
+                                    <p>
+                                        Uma boa pizza a moda da casa não tem jeito, estou certo? <strong> Consulte mais sabores </strong>
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/pratos/salmao.jpg" alt="Salmão">
+                                    <h5 class="fw-bold">Salmão Grelhado</h5>
+                                    <p>
+                                        Um salmão feito especialmente para você
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/pratos/Lasanha.jpg" alt="Lasanha">
+                                    <h5 class="fw-bold">Lasanha</h5>
+                                    <p>
+                                        Lasanha com molho da casa
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/pratos/Hamburguer na grelha.webp" alt="Hamburguer">
+                                    <h5 class="fw-bold">Hamburguer na Grelha</h5>
+                                    <p>
+                                       A carne mais saborosa da cidade
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="sobremesas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                    <h5 class="fw-bold">Bolo</h5>
+                                    <p>
+                                        Uma delícia de sabor único
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                    <h5 class="fw-bold">Mini Cupcakes</h5>
+                                    <p>
+                                        O melhor cupcake da região
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/sobremesas/Musse de Maracujá.webp" alt="Musse de Maracujá">
+                                    <h5 class="fw-bold">Musse de Maracujá</h5>
+                                    <p>
+                                        Dá fruta a um sabor irresistível
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 mb-2 rounded" style="height: 200px; object-fit: cover;" src="./images/cardapio/sobremesas/Torta de Morango.jpg" alt="Torta de Morango">
+                                    <h5 class="fw-bold">Torta doce de Morango</h5>
+                                    <p>
+                                        A melhor torta doce que você irá provar
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form id="contatoForm" novalidate>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" placeholder="Digite seu nome completo"  minlength="3" required>
+                            <div class="invalid-feedback">Por favor, insira um nome válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" class="form-control" placeholder="seuemail@email.com" required>
+                            <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control" placeholder="(+351 000 000 000)">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            <div class="invalid-feedback">Por favor, escreva uma mensagem.</div>
+
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5 text-center">
+                    <div class="row section-title fs-4 text-colored">
+                        <h3>
+                            <i class="bi bi-bell-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-4">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row section-title fs-4 text-colored">
+                        <h3 class="text-center pt-3">
+                            <i class="bi bi-cursor-fill"></i>
+                            Onde ficamos localizados
+                        </h3>
+                        <div id="mapframe" class="ratio ratio-16x9 rounded-3 shadow-sm overflow-hidden">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.556985282129!2d-8.616688!3d41.144196099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246576f2ea8a6b%3A0x7d8117734915747b!2sThe%20Door!5e0!3m2!1spt-PT!2spt!4v1761158709081!5m2!1spt-PT!2spt"  
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/imask"></script>
+<script>
+  // Máscara de telefone (IMask)
+  const telInput = document.getElementById('telefone');
+  IMask(telInput, { mask: '+351 000 000 000' });
+  
+  const form = document.getElementById('contatoForm');
+  form.addEventListener('submit', event => {
+    if (!form.checkValidity()) {
+      event.preventDefault();
+      event.stopPropagation();
+    } else {
+      event.preventDefault();
+      alert('✅ Perfeito, em alguns minutos receberá um contato da nossa equipe para agendar sua visita, aguardamos por você!');
+      form.reset();
+    }
+    form.classList.add('was-validated');
+  });
+</script>
+</body>
+</html>
