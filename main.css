@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 75px;
+}
+header h2 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(1,0,0,0.3);
+    
+}   
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("./Imagens/background_site.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+form button {
+    margin-top: 30px;
+    width: 400px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  margin-top: 10px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
