@@ -1,0 +1,41 @@
+// ============================
+// MIXINS
+// ============================
+
+// Flexbox rápido
+.flex(@justify: flex-start, @align: stretch) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+// Container centralizado
+.container() {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// Grid com 3 colunas
+.grid-3() {
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+}
+
+// Botão verde
+.button() {
+    display: block;
+    background-color: @color-button;
+    color: @color-white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: @color-button-hover;
+    }
+}
